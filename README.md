@@ -3,7 +3,7 @@ calculator with php && html
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Formulario</title>
+	<title>Calculator</title>
 </head>
 <body>
 	<form method="post">
