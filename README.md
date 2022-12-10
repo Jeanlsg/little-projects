@@ -16,11 +16,11 @@ calculator with php && html
 		</select>
 		
 		<input type="text" name="numero2">
-		<input type="submit" name="ação" value= "enviar" />	
+		<input type="submit" name="ação" value= "=" />	
 <?php  
 
 
- echo '<hr>';
+ //echo '<hr>';
  if($_POST['var']=='+' && isset($_POST['ação'])) {
 			echo $_POST['numero1'] + $_POST['numero2'];
 }
